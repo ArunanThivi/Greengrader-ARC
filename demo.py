@@ -1,0 +1,1 @@
+print("You entered:", input())

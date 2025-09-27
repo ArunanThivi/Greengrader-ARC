@@ -1,0 +1,27 @@
+[
+    {
+        "input": "Arunan",
+        "output": "You entered: Arunan",
+        "hidden": false
+    },
+    {
+        "input": "test",
+        "output": "You entered: test",
+        "hidden": false
+    },
+    {
+        "input": "",
+        "output": "You entered: ",
+        "hidden": false
+    },
+    {
+        "input": "12",
+        "output": "You entered: 12",
+        "hidden": true
+    },
+    {
+        "input": "demo",
+        "output": "You entered: demo",
+        "hidden": true
+    }
+]

@@ -126,7 +126,7 @@ func main() {
 
 		runnerSrc := fmt.Sprintf(template, t.Input, t.Output, t.Hidden, cmdArgs, strictMode)
 		tmpFile := fmt.Sprintf("runner_tmp_%d.go", i+1)
-		if err := ioutil.WriteFile(tmpFile, []byte(runnerSrc), 0644); err != nil {
+		if err := os.WriteFile(tmpFile, []byte(runnerSrc), 0644); err != nil {
 			fmt.Fprintf(os.Stderr, "Failed to write temporary runner for test %d: %v\n", i+1, err)
 			continue
 		}

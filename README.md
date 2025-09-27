@@ -66,7 +66,7 @@ Where `tests.json` includes the test cases in a structure like
 
 ```
 
-The program will then produce binaries `prefix_test1` `prefix_test2`, etc for all the tests, which can then be included in the starter repo and configured to run through the github classroom autograder.
+The program will then produce binaries `prefix_test1` `prefix_test2`, etc for all the tests, which can then be included in the student repos and configured to run through the github classroom autograder.
 
 The strict flag changes matching from inclusion to exact
 

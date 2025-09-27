@@ -7,7 +7,7 @@ Set up the Github Actions Controller Runner with
 ./setup.sh
 ```
 
-**NOTE:** Before running the setup wizard, ensure that an application has been made on Github, we'll use this app for authenticating Greengrader to the classroom organization. We will need the App ID, the installation ID, and a private key
+**NOTE:** Before running the setup wizard, ensure that `helm` is installed on the kubernetes cluster AND that an application has been made on Github, we'll use this app for authenticating Greengrader to the classroom organization. We will need the App ID, the installation ID, and a private key
 
 The setup wizard will prompt with a couple of steps to ensure the setup is done properly
 1. The URL for the organization the runner will be assigned to. This will usually be in the form of `https://Github.com/organization`
